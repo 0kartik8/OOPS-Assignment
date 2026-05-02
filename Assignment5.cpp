@@ -404,12 +404,12 @@ public:
 };
 int main() {
  Student s;
- s.setStudent("Saanvi", 1024, "7009756092", "2nd yr”);
+ s.setStudent("Kartik", 1024, "9306040057", "2nd yr");
  cout << "Student Details" << endl;
  s.displayStudent();
  cout << endl;
  Teacher t;
- t.setTeacher("Mr. Sharma", 201, "9123456780", "Computer Science");
+ t.setTeacher("Mr. CHandramohan", 201, "9999911111", "ENC");
  cout << "Teacher Details" << endl;
  t.displayTeacher();
  return 0;
@@ -541,7 +541,7 @@ public:
 };
 int main() {
  TeachingAssistant ta;
- ta.setTeachingAssistant("Saanvi", "Mansa", 501, "Computer Science", 1201, "A");
+ ta.setTeachingAssistant("Kartik", "Bathinda", 501, "ENC", 1201, "A");
  ta.displayTeachingAssistant();
  return 0;
 }
